@@ -1,0 +1,22 @@
+body{
+    font-family: 'Kreon', serif;
+    background-color: #1ABC9C;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    height: ;
+}
+
+.nyheter{
+
+}
+
+article{
+
+}
+
+.medlemskap{
+
+}
