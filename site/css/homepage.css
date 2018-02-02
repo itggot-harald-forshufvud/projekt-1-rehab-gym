@@ -1,0 +1,40 @@
+.container{
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+     
+    font-family: 'Kreon', serif;
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+p{
+    
+}
+
+header {
+    grid-row: span 3;
+}
+
+header>img{
+    width: 100%;
+    height: auto;
+}
+
+.nyheter{
+    grid-row: span 2;
+    background-color: 
+}
+
+article{
+
+}
+
+.medlemskap{
+
+}
