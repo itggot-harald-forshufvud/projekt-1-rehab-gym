@@ -18,7 +18,7 @@ h1{
 }
 
 h2{
-	font-size: 29px;
+	font-size: 20px;
 	color: #297F2D;
 }
 
@@ -38,14 +38,16 @@ header>img{
 }
 
 .nyheter{
-	grid-row: span 3;
-	background-color: #1ABC9C;
 	display: grid inherit;
+	grid-row: span 3;
+	background-color: rgb(19, 199, 88);
+	padding: 30px;
 	grid-template-rows: repeat(10, 1fr);
 }
 
 .news{
 	grid-row: span 1;
+	background-color: rgb(72, 180, 199);
 }
 
 article{
@@ -53,12 +55,19 @@ article{
 }
 
 .medlemskap{
-	grid-row: span 1;
+	display: grid inherit;
+	grid-row: span 3;
+	padding: 30px;
 	background-color: #0F6E5C;
+}
+
+.membership{
+	background-color: rgb(51, 209, 130);
 }
 
 .first{
 	background-color: #00B265;
+	grid-row: span 3
 }
 
 .second{
