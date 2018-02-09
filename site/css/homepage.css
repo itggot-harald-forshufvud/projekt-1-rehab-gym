@@ -30,6 +30,7 @@ p{
 header {
 	grid-row: span 2;
 	background-color: #FFF;
+	padding: 3px;
 }
 
 header>img{
@@ -58,18 +59,22 @@ article{
 	display: grid inherit;
 	grid-row: span 3;
 	padding: 30px;
-	background-color: #0F6E5C;
+	background-color: rgb(19, 199, 88);
 }
 
 .membership{
-	background-color: rgb(51, 209, 130);
+	background-color: rgb(72, 180, 199);
 }
 
 .first{
 	background-color: #00B265;
-	grid-row: span 3
+	margin: 10px;
+	grid-row: span 1;
+	padding: 5px;
 }
 
 .second{
 	background-color: #16A085;
+	margin: 10px;
+	grid-row: span 1;
 }
