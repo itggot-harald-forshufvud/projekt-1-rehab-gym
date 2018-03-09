@@ -15,7 +15,7 @@ p{
 
 nav{
 	background-color: #16A085;
-	text-align: center;
+	text-align-last: auto;
 }
 
 header {
@@ -44,7 +44,7 @@ article{
 .medlemskap{
 	display: grid inherit;
 	grid-row: span 3;
-    	padding: 30px;
+    padding: 30px;
 	background-color: rgb(19, 199, 88);
 }
 
