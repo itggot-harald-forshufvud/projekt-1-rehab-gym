@@ -1,0 +1,18 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	display: grid;
+	height: 200vh;
+	grid-template-rows: repeat(12, 1fr);
+	background-color: rgb(19, 199, 88);
+	font-family: 'Kreon', serif;
+	text-align: center;
+}
+
+header>img{
+	width: 100%;
+	height: auto;
+}

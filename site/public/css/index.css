@@ -1,85 +1,70 @@
-body{
-	margin: 0;
-	padding: 0;
-}
+body {
+  margin: 0;
+  padding: 0; }
 
-.container{
-	display: grid;
-	height: 200vh;
-	grid-template-rows: repeat(12, 1fr);
-	background-color: rgb(19, 199, 88);
-	font-family: 'Kreon', serif;
-	text-align: center;
-}
+.container {
+  display: grid;
+  height: 200vh;
+  grid-template-rows: repeat(12, 1fr);
+  background-color: #13c758;
+  font-family: 'Kreon', serif;
+  text-align: center; }
 
-h1{
-	font-size: 32px;
-	color: #313131;
-}
+header > img {
+  width: 100%;
+  height: auto; }
 
-h2{
-	font-size: 20px;
-	color: #297F2D;
-}
+h1 {
+  font-size: 32px;
+  color: #313131; }
 
-p{
-	font-size: 12px;
-	color: #313131;
-}
+h2 {
+  font-size: 20px;
+  color: #297F2D; }
 
-nav{
-	background-color: #16A085;
-	text-align: center;
-}
+p {
+  font-size: 12px;
+  color: #313131; }
+
+nav {
+  background-color: #16A085;
+  text-align: center; }
 
 header {
-	grid-row: span 2;
-	background-color: #FFF;
-	padding: 3px;
-}
+  grid-row: span 2;
+  background-color: #FFF;
+  padding: 3px; }
 
-header>img{
-	width: 100%;
-	height: auto;
-}
+.nyheter {
+  display: grid inherit;
+  grid-row: span 3;
+  background-color: #13c758;
+  padding: 30px;
+  grid-template-rows: repeat(10, 1fr); }
 
-.nyheter{
-	display: grid inherit;
-	grid-row: span 3;
-	background-color: rgb(19, 199, 88);
-	padding: 30px;
-	grid-template-rows: repeat(10, 1fr);
-}
+.news {
+  grid-row: span 1;
+  background-color: #48b4c7; }
 
-.news{
-	grid-row: span 1;
-	background-color: rgb(72, 180, 199);
-}
+article {
+  grid-row: span 3; }
 
-article{
-	grid-row: span 3;
-}
+.medlemskap {
+  display: grid inherit;
+  grid-row: span 3;
+  padding: 30px;
+  background-color: #13c758; }
 
-.medlemskap{
-	display: grid inherit;
-	grid-row: span 3;
-	padding: 30px;
-	background-color: rgb(19, 199, 88);
-}
+.membership {
+  background-color: #48b4c7; }
 
-.membership{
-	background-color: rgb(72, 180, 199);
-}
+.first {
+  background-color: #00B265;
+  margin: 10px;
+  grid-row: span 1;
+  padding: 5px; }
 
-.first{
-	background-color: #00B265;
-	margin: 10px;
-	grid-row: span 1;
-	padding: 5px;
-}
-
-.second{
-	background-color: #16A085;
-	margin: 10px;
-	grid-row: span 1;
-}
+.second {
+  background-color: #16A085;
+  margin: 10px;
+  grid-row: span 1; }
