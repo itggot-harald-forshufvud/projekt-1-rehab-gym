@@ -64,14 +64,14 @@ nav ul li{
 }
 
 header {
-	grid-row: span 2;
+	grid-row: span 1;
 	background-color: rgb(19, 199, 88);
 	padding: 3px;
 }
 
 .nyheter{
 	display: grid inherit;
-	grid-row: span 3;
+	grid-row: span 2;
 	background-color: rgb(19, 199, 88);
 	padding: 30px;
 	grid-template-rows: repeat(10, 1fr);
@@ -88,7 +88,7 @@ article{
 
 .medlemskap{
 	display: grid inherit;
-	grid-row: span 3;
+	grid-row: span 2;
     padding: 30px;
 	background-color: rgb(19, 199, 88);
 }
@@ -96,6 +96,7 @@ article{
 .membership{
 	background-color: rgb(72, 180, 199);
 }
+
 
 .first{
 	background-color: #00B265;
@@ -108,4 +109,9 @@ article{
 	background-color: #16A085;
 	margin: 10px;
 	grid-row: span 1;
+}
+
+footer{
+	grid-row: span 1;
+	background-color: rgb(2, 126, 49)
 }

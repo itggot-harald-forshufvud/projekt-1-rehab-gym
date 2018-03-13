@@ -6,7 +6,7 @@ body {
 .container {
   display: grid;
   height: 200vh;
-  grid-template-rows: repeat(12, 1fr);
+  grid-template-rows: repeat(8, 1fr);
   background-color: #13c758;
   font-family: 'Kreon', serif;
   text-align: center; }
@@ -69,13 +69,13 @@ nav ul li {
   list-style-type: none; }
 
 header {
-  grid-row: span 2;
+  grid-row: span 1;
   background-color: #13c758;
   padding: 3px; }
 
 .nyheter {
   display: grid inherit;
-  grid-row: span 3;
+  grid-row: span 2;
   background-color: #13c758;
   padding: 30px;
   grid-template-rows: repeat(10, 1fr); }
@@ -89,7 +89,7 @@ article {
 
 .medlemskap {
   display: grid inherit;
-  grid-row: span 3;
+  grid-row: span 2;
   padding: 30px;
   background-color: #13c758; }
 
@@ -106,3 +106,7 @@ article {
   background-color: #16A085;
   margin: 10px;
   grid-row: span 1; }
+
+footer {
+  grid-row: span 1;
+  background-color: #027e31; }
