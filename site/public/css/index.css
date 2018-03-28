@@ -42,15 +42,13 @@ header > img {
     grid-row: 2/3 !important;
     grid-column: span 1 !important;
     background-color: whitesmoke;
-    margin: 0px !important; }
-
-  nav {
-    grid-column: span 1 !important;
-    grid-row-start: 2/6 !important; }
+    margin: 0px !important;
+    width: 25vw !important; }
 
   header {
-    grid-row: span 5 !important;
-    background-color: whitesmoke !important; }
+    grid-row: span 1 !important;
+    background-color: whitesmoke !important;
+    margin: 0px !important; }
 
   header.news {
     grid-row: span 1; }
@@ -64,7 +62,22 @@ header > img {
   footer {
     grid-column: span 4;
     grid-row: span 6/7;
-    background-color: #13c758 !important; } }
+    background-color: #13c758 !important; }
+
+  .menuButton {
+    display: None; }
+
+  nav {
+    display: block;
+    grid-row: 2 / 6;
+    grid-column: span 1;
+    position: static !important;
+    width: 27vw !important;
+    height: auto !important;
+    background-color: gray; }
+
+  nav h2 {
+    border: gray; } }
 h1 {
   font-size: 32px;
   color: #313131; }

@@ -33,13 +33,13 @@ header>img{
 
 	div.nyheter{
 		grid-template-rows: repeat(6, 1fr);
-		grid-row: 2/3;
+		grid-row: 1/6;
 		grid-column: 2/3;
 		background-color: whitesmoke;
 	}
 	div.medlemskap{
 		grid-template-rows: repeat(6, 1fr);
-		grid-row: span 2;
+		grid-row: span 5;
 		background-color: whitesmoke;
 	}
 
@@ -48,16 +48,13 @@ header>img{
 		grid-column: span 1 !important;
 		background-color: whitesmoke;
 		margin: 0px !important;
-	}
-
-	nav{
-		grid-column: span 1 !important;
-		grid-row-start: 2/6 !important;
+		width: 25vw !important;
 	}
 
 	header{
-	grid-row: span 5 !important;
-	background-color: whitesmoke !important;
+		grid-row: span 1 !important;
+		background-color: whitesmoke !important;
+		margin: 0px !important;
 	}
 	
 	header.news{
@@ -76,6 +73,24 @@ header>img{
 		grid-column: span 4;
 		grid-row: span 6/7;
 		background-color: rgb(19, 199, 88) !important;
+	}
+
+	.menuButton {
+		display: None;
+	}
+
+	nav {
+		display: block;
+		grid-row: 2 / 6;
+		grid-column: span 1;
+		position: static !important;
+		width: 27vw !important;
+		height: auto !important;
+		background-color: gray !important;
+	}
+
+	nav h2{
+		border: none !important;
 	}
 	
 }

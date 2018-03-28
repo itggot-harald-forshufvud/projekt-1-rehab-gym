@@ -122,3 +122,26 @@ footer{
 	grid-row: span 1;
 	background-color: rgb(2, 126, 49)
 }
+
+@media only  screen and (min-device-width: 900px) {
+	nav{
+		background-color: gray;
+	}
+	
+	nav h2{
+		border: gray;
+	}
+	main{
+		grid-column: span 3;
+		grid-row: 2/6;
+		height: auto;
+		width: 70vw;
+		background-image: url(../img/happy_gymer.png) !important;
+	}
+
+	header.title{
+		grid-column: span 3;
+		grid-row: span 1;
+	}
+
+}
