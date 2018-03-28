@@ -13,8 +13,58 @@ body {
 
 header > img {
   width: 100%;
-  height: auto; }
+  height: auto;
+  background-color: #13c758; }
 
+@media only screen and (min-device-width: 900px) {
+  body {
+    background-color: whitesmoke; }
+
+  div.container {
+    background-color: whitesmoke !important;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    height: 100vh;
+    width: 100vw; }
+
+  div.nyheter {
+    grid-template-rows: repeat(6, 1fr);
+    grid-row: 2/3;
+    grid-column: 2/3;
+    background-color: whitesmoke; }
+
+  div.medlemskap {
+    grid-template-rows: repeat(6, 1fr);
+    grid-row: span 2;
+    background-color: whitesmoke; }
+
+  header > img {
+    grid-row: 2/3 !important;
+    grid-column: span 1 !important;
+    background-color: whitesmoke;
+    margin: 0px !important; }
+
+  nav {
+    grid-column: span 1 !important;
+    grid-row-start: 2/6 !important; }
+
+  header {
+    grid-row: span 5 !important;
+    background-color: whitesmoke !important; }
+
+  header.news {
+    grid-row: span 1; }
+
+  header.news {
+    background-color: #48b4c7 !important; }
+
+  header.membership {
+    background-color: #48b4c7 !important; }
+
+  footer {
+    grid-column: span 4;
+    grid-row: span 6/7;
+    background-color: #13c758 !important; } }
 h1 {
   font-size: 32px;
   color: #313131; }
@@ -42,7 +92,7 @@ nav {
 
 nav h2 {
   border: #13c758;
-  padding: 10px;
+  padding: 20px;
   outline-style: solid;
   outline-width: 2px; }
 
